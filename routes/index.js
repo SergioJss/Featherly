@@ -11,7 +11,7 @@ routes.get("/", function(req, res) {
 });
 
 routes.get("/currency", function(req, res) {
-  res.render("../currency/index.ejs");
+  res.render("index.ejs");
 });
 
 routes.get("/login", function(req, res) {
